@@ -1,0 +1,134 @@
+body { padding: 0px; margin: 0px; font-family: Century Gothic, "Microsoft YaHei", Arial, Verdana;background: url(img/bg_home.png);font: 12px/1.5 Microsoft YaHei,Helvitica,Verdana,Arial,san-serif;}
+input,ul,h1,h2,h3,h4,input,ol,p,dl,dt,dd{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+a{text-decoration: none;color: #666}
+a:hover {color:#C00;text-decoration: none;}
+img,input{ border:none; vertical-align:middle;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.topbg{background-IMAGE: url(img/top.png);background-REPEAT: repeat-x; height:124px; box-shadow:0 0 10px #000;-moz-box-shadow:0 0 10px #000;-webkit-box-shadow:0 0 10px #000;}
+.top {
+	margin: 0px auto; WIDTH: 988px; HEIGHT: 124px;
+}
+
+.top .toplink{ height:27px; line-height:27px; color:#999; font-size:12px;}
+.top .toplink .welcome{ float:left;}
+.top .toplink .memberinfo{ float:right;}
+.top .toplink .memberinfo a{ color:#999;}
+.top .toplink .memberinfo a:hover{ color:#F90}
+.top .toplink .memberinfo a.green{ background:none; color:#0C0}
+
+.top .logo {WIDTH: 990px;color: #333; height:70px;  FONT-SIZE:16px; padding-TOP:25px;}
+.top h1{ font-size:25px; margin-top:20px; float:left; width:230px; margin:0; padding:0;}
+.top .navr {WIDTH:750px; float:right; overflow:hidden; margin-top:10px;}
+.top .navr ul{ width:850px;}
+.navr LI {TEXT-ALIGN:center;FLOAT: left;HEIGHT:32px;FONT-SIZE:1em;width:103px; margin-right:5px;}
+.navr LI A {width:103px;TEXT-ALIGN:center; LINE-HEIGHT:30px; FLOAT: left;HEIGHT:32px;color: #333; FONT-SIZE: 1em;TEXT-DECORATION: none
+}
+.navr LI A:hover {background: url(img/navhover.gif) center no-repeat;color:#009900;}
+.navr LI.menuon {background: url(img/navon.gif) center no-repeat; display:block;width:103px;HEIGHT:32px;}
+.navr LI.menuon a{color:#FFF;}
+.navr LI.menuon a:hover{background: url(img/navon.gif) center no-repeat;}
+
+.banner{height:200px; text-align:center; border-bottom:2px solid #ddd;}
+.hbanner{ background: url(img/h2003070126.jpg) center no-repeat #B4B4B4;}
+.gbanner{ background: url(img/h2003070127.jpg) center no-repeat #264C79;}
+.jbanner{ background: url(img/h2003070128.jpg) center no-repeat #E2EAD5;}
+.dbanner{ background: url(img/h2003070129.jpg) center no-repeat #009ADA;}
+.nbanner{ background: url(img/h2003070130.jpg) center no-repeat #ffca22;}
+/*login*/
+.login-wrapper{ width:980px; margin:0px auto; min-height:450px; padding:50px 0; font-size:14px;}
+.loginbox{ border:1px solid #D7DDE6; font-size:14px;}
+.iptxt{width:220px; height:30px; line-height:30px; padding:0 10px; border:1px solid #DDD;}
+.f_gray{height:50px; line-height:50px; background:#F5F6F7; font-size:14px; padding-left:20px;border-bottom:1px solid #D7DDE6;}
+.btn{ border:0; color:#FFF; padding:5px 3px;font-family:"Microsoft yahei",????????,Arial; cursor:pointer;??-moz-border-radius:3px;border-radius:3px;}
+.green{background:#390; }
+.yellow{ background:#F90}
+.f_red{ color:#F00}
+.tl{width:150px;text-align:right;padding-right:20px;}
+.reg_title {border-bottom:#CCCCCC 1px solid;font-weight:bold;padding:0 0 10px 10px;margin:15px 55px 0 55px;font-size:16px;color:#FF6600;}
+.reg_inp {border:#7F9DB9 1px solid;padding:3px 0 3px 0;}
+.f_white{ padding:20px;}
+
+.IndexFoot {
+	background-color: #333; WIDTH: 100%; HEIGHT: 39px
+}
+.normalTitle {
+    border-bottom: 1px solid #D7DDE6;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.normalTitle h2, .panelTitle h2, .processTitle h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.content {
+ margin: 0 auto;
+    text-align: left;
+    width: 707px;
+}
+.article, .intro, .download, .document, .developer {
+margin:40px 0px;
+
+background:#f5f6f7;
+box-shadow:0px 1px 3px #ccc;
+}
+.section {
+padding:0 0 20px 0;
+margin:0 0 20px 0;
+border-bottom:1px solid #eee;
+overflow: hidden;
+}
+.lastSection {
+border:none;
+margin-bottom:0px;
+}
+.normalTitle {
+border-bottom:1px solid #d7dde6;
+border-radius:10px 10px 0 0;
+padding:20px 40px;
+text-shadow:0 1px 1px #fff;
+}
+.normalContent {
+background:#fff;/*border-radius:0 0 10px 10px;*/
+padding:40px;
+}
+.normalTitle h2, .panelTitle h2, .processTitle h2 {
+font-size:20px;
+font-weight:bold;
+}
+.green{ color:#090}
+.red{ color: #F00}
+.collapsible {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px;
+}
+.CollapsiblePanel {
+    margin-bottom: 10px;
+    width: 870px;
+}
+.CollapsiblePanelTab {
+    background: url(style/images/img/arrow_unclick.png) no-repeat scroll 820px 20px #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px 3px 3px 3px;
+    color: #626B8A;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px 40px 20px 20px;
+    text-shadow: 0 1px 0 white;
+}
+.CollapsiblePanelTab.hover {
+    background: url(style/images/img/arrow_unclick.png) no-repeat scroll 820px 20px #D7DDE6;
+border: 1px solid #C1C9D4;
+}
+.CollapsiblePanelTab.clicked {
+    background: url(style/images/img/arrow_click.png) no-repeat scroll 820px 20px #D7DDE6;
+border: 1px solid #C1C9D4;
+}
+.CollapsiblePanelContent {
+    display: none;
+    overflow: hidden;
+}
+.CollapsiblePanelContent .normalContent {
+    padding: 20px 20px 0;
+}

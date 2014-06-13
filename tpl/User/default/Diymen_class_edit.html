@@ -1,0 +1,130 @@
+<script type="text/javascript" src="{weikucms::RES}/js/wapwei/jQuery.js"></script>
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/wapwei/bootstrap_min.css"
+      media="all">
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/wapwei/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/wapwei/themes.css">
+<script type="text/javascript" src="{weikucms::RES}/js/wapwei/notifIt.js"></script>
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/wapwei/notifIt.css" media="all">
+<script type="text/javascript">
+    $(function(){
+        $("#csubmit").click(function(){
+            var button = $(this);
+            var m_class = $("#class").val();
+            var id = $("#id").val();
+            var pid = $("#pid").val();
+            var title = $("#menu_title").val();
+            var keyword = $("#keyword").val();
+            var url = $("#url").val();
+            var sort = $("#sort").val();
+            var is_show = $("input[name='is_show']:checked").val();
+            var __hash__ =  $("input[name='__hash__']").val();
+
+            $.post("{weikucms::U('Diymen/class_edit')}",
+                    {pid:pid,id:id,class:m_class,title:title,keyword:keyword,url:url,sort:sort,is_show:is_show,__hash__:__hash__},
+                    function(data){
+                        if(data.status == 1){
+                            notif({
+                                msg: data.info,
+                                type: "success"
+                            });
+                            setTimeout(function(){
+                                parent.window.location.reload()
+                            },'1000')
+                        }else{
+                            notif({
+                                msg: data.info,
+                                type: "error"
+                            });
+                        }
+                    },'json');
+
+        });
+    });
+
+</script>
+<style>
+.action {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 3px #666666;
+    width: 359px;
+}
+#formid input{
+    height: 28px;
+    line-height: 28px;
+}
+td{text-align: -webkit-left;}
+</style>
+<div class="alert alert-info">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <strong>提示信息!</strong>
+    <ol>
+        <li>关联关键词和外链url可选填,当您填写完外链url后关联关键词将不能生效</li>
+        <li>排序为数字，数字越大顺序越靠前，如果不填写将按照添加时间顺序排序</li>
+    </ol>
+</div>
+	<form id="formid" action="" method="post" id="realinfo_form">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <input type="hidden" id="id" value="{weikucms:$show.id}" />
+		<tbody>
+		<tr bgcolor="#F1F1F1">
+			<td align="right" height="42" width="">父级菜单：</td>
+			<td>
+				<div class="mr15 l">
+				<select name="pid" id="pid">
+					<option  value="0">请选择菜单</option>
+					<volist id="class" name="class">
+						<option  value="{weikucms:$class.id}" <if condition="$show['pid'] eq $class['id']">selected</if>>{weikucms:$class.title}</option>
+					</volist>
+				</select>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td align="right" height="42" width="">主菜单名称:</td>
+			<td>
+				<div class="mr15 l">
+				<input id="menu_title" class="txt" name="title" title="主菜单名称" value="{weikucms:$show.title}" type="text"></div>
+				<div class="system l"></div>
+			</td>
+		</tr>					
+		<tr bgcolor="#F1F1F1">
+			<td align="right" height="42" width="">关联关键词</td>
+			<td>
+				<div class="mr15 l"><input id="keyword" class="txt" name="keyword" title="关联关键词" value="{weikucms:$show.keyword}" type="text"></div>
+				<div class="system l"></div>
+			</td>
+		</tr>
+		<tr bgcolor="#F1F1F1">
+			<td align="right" height="42" width="">外链接url</td>
+			<td>
+				<div class="mr15 l"><input id="url" class="txt" name="url" title="外链接url" value="{weikucms:$show.url}" type="text"></div>
+				<div class="system l"></div>
+			</td>
+		</tr>
+		<tr>
+			<td align="right" height="42">显示：　</td>
+			<td>
+				<div class="mr15 l">
+				<input type="radio" name="is_show" <if condition="$show['is_show'] eq 1">checked="checked"</if> value="1">是&nbsp;
+				<input type="radio" name="is_show" <if condition="$show['is_show'] eq 0">checked="checked"</if> value="0">否&nbsp;
+				</div>
+				<div class="system l"></div>
+			</td>
+		</tr>
+		<tr bgcolor="#F1F1F1">
+			<td align="right" height="42">排序:</td>
+			<td>
+				<div class="mr15 l">
+				<input id="sort" class="txt" name="sort" title="排序" value="{weikucms:$show.sort}" type="text"></div>
+				<div class="system l"></div>
+			</td>
+		</tr>
+		<tr>
+			<td height="42">&nbsp;</td>
+			<td>
+				<button class="btn btn-primary" type="button" name="submit" id="csubmit">提交</button>
+			</td>
+		</tr>
+			
+	</tbody></table>
+</form>

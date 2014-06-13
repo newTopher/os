@@ -1,0 +1,114 @@
+﻿<div class="erwei" title="微信扫一扫">
+	<span class="hudongzhushou">官方微信</span>
+	<div class="erwei_big" style="display:none;">
+		<p>扫一扫，关注WeiKuCMS官方微信，体验WeiKuCMS智能服务</p>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var erwei_time = null;
+		$(".erwei").hover(function(){
+			$(".erwei_big").show();
+		}).mouseleave(function(){
+				erwei_time = setTimeout(function(){
+					$(".erwei_big").hide();
+				},1000);
+			});
+		$(".erwei_big").mouseenter(function(){
+			if(erwei_time){
+				clearTimeout(erwei_time);
+			}
+		}).mouseleave(function(){
+				erwei_time = setTimeout(function(){
+					$(".erwei_big").hide();
+				},1000);
+			});
+	});
+</script>
+<div class="footer">
+	<div class="footer-content clearfix">
+		<div class="foot-menu">
+			
+			<p>服务QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={weikucms::C('site_qq')}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{weikucms::C('site_qq')}:51" alt="联系我吧" title="联系我吧"/></a>&nbsp;&nbsp;&nbsp;QQ1：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={weikucms::C('site_qq2')}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{weikucms::C('site_qq2')}:51" alt="联系我吧" title="联系我吧"/></a>&nbsp;&nbsp;&nbsp;邮箱：{weikucms::C('site_email')}</p>
+			<p>服务电话：{weikucms::C('site_hm')}|{weikucms:: htmlspecialchars_decode(C('counts'))}</p>
+		</div>
+		<div class="copyright_index" align="center">
+		Copyright © 2013-2014. All Rights Reserved {weikucms::C('copyright')}  {weikucms::C('ipc')}
+		</div>
+        		<!--<div class="copyright" ><a href="##">微酷cms</a></div>-->
+	</div>
+</div>
+<script>
+	function feedbackSubmit(){
+		var $data = {
+			feedback: $('#feedback-text').val(),
+			email: $('#feedback-input').val(),
+			url: self.location.href
+		};
+		$.post('/site/feedback', $data, function(rs){
+			alert(rs.error);
+			if (200 == rs.code)
+			{
+				$('#feedback, #feedback_cover').toggleClass('on');
+			}
+		}, 'json');
+	}
+</script>
+<!--公告信息-->
+	<div id="notice_mask"></div>
+	<div id="notice_message" style="position: absolute; left: 373.5px; top: 20%;">
+		<div class="title">公 告<a onClick="javascript:jQuery('#notice_mask').hide(),jQuery('#notice_message').hide();">×</a></div>
+		<div class="content">
+			<pre style="white-space:pre-wrap;"><p>
+	尊敬的WeiKuCMS 微酷CMS 用户、合作伙伴：
+</p>
+<p>
+	WeiKuCMS最新升级：
+1.新增微汽车，微房产，微门店，微花店，微物业，微医院，微装修，微婚庆等行业应用，全新的行业板块让您的企业运营更加高端！
+2.微商城团购订餐支持手机在线支付，并支持短信邮件接口，手机支付商城不再是难题！
+3.新增分类首页连级菜单，让您的微网站选择活动时不再到处找活动链接！
+4.新增了砸金蛋活动，让您的企业活动更加的丰富多彩！
+5.修复了会员卡最新通知跳转会员特权的问题，修复了会员卡iOS，android显示不一样的问题！
+6.新增了自定义商家LBS功能，附近或者自定义公司信息均可获取！让您的企业无处不在！
+7.修复回复慢或者不回复问题！
+
+请认准WeiKuCM官方唯一认定网站：www.weikucms.com
+
+更新时间：2014年3月10日
+</p></pre>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#notice_mask').click(function(){
+			$('#notice_mask').hide();
+			$('#notice_qrcode').hide();
+			$('#notice_message').hide();
+		});
+
+		$(window).resize(function(){
+			$('#notice_qrcode').css({
+				position:'absolute',
+				left: ($(window).width() - $('#notice_qrcode').outerWidth())/2,
+				top: ($(window).height() - $('#notice_qrcode').outerHeight())/2
+			});
+
+			$('#notice_message').css({
+				position:'absolute',
+				left: ($(window).width() - $('#notice_message').outerWidth())/2,
+				top: ($(window).height() - $('#notice_message').outerHeight())/2
+			});
+		});
+	});
+</script>
+
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=5&amp;pos=left&amp;uid=6461542" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+</body>
+</html>

@@ -1,0 +1,110 @@
+<include file="Public:head"/> 
+
+
+<div class="content right" >
+
+<div class="cLineB">
+
+<h4 class="left">预约管理 </h4>
+
+<div class="clr"></div>
+
+</div>
+
+
+
+<div class="cLine">
+
+<div class="pageNavigator left"> <a href="{weikucms::U($type.'/add',array('token'=>$token))}" title="添加" class="btn btn-primary">添加预约</a></div>
+
+<div class="clr"></div>
+
+</div>
+
+<div class="alert alert-info">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <strong>提示信息!</strong>
+    <ol>
+        <li>在这里您可以添加一些常见的预约活动，增强公众号的互动功能</li>
+    </ol>
+</div>
+
+<div class="msgWrap">
+
+<form method="post" action="" id="info">
+
+<input name="delall" type="hidden" value="">
+
+<input name="wxid" type="hidden" value="">
+
+<table class="table table-striped" border="0" cellspacing="0" cellpadding="0" width="100%">
+
+<thead>
+
+<tr>
+
+<th width="140">预约名称</th>
+
+<th width="160">关键词</th>
+
+<th width="140">预约电话</th>
+
+<th width="130">开始时间</th>
+
+<th width="130">结束时间</th>
+
+<th width="250" class="norightborder">操作</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr></tr>
+
+<volist name="data" id="item"> 
+
+<tr>
+
+<td>{weikucms:$item.title}</td>
+
+<td>{weikucms:$item.keyword}</td>
+
+<td>{weikucms:$item.phone}</td>
+
+<td>{weikucms:$item.statdate}</td>
+
+<td>{weikucms:$item.enddate}</td>
+
+
+
+<td class="norightborder"><a href="{weikucms::U($type.'/infos',array('id'=>$item['id'],'token'=>$token))}">订单管理</a>&nbsp;&nbsp;<a href="{weikucms::U($type.'/setcin',array('id'=>$item['id'],'token'=>$token))}">类型设置</a>&nbsp;&nbsp;<a href="{weikucms::U($type.'/setinfo',array('id'=>$item['id'],'token'=>$token))}">表单设置</a>&nbsp;&nbsp;
+    <a href="{weikucms::U($type.'/set',array('id'=>$item['id'],'token'=>$token))}">修改</a>
+    &nbsp;&nbsp;<a href="#" onclick="source_delete('{weikucms::U($type.'/del',array('id'=>$item['id'],'token'=>$token))}')">删除</a></td>
+
+</tr>
+
+</volist>
+
+</tbody>
+
+</table>
+
+</form>
+
+
+
+</div>
+
+<div class="cLine">
+
+
+
+<div class="clr"></div>
+
+</div>
+
+</div>
+
+<include file="Public:footer"/>

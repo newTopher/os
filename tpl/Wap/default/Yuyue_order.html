@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+
+
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/yuyue/common.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/yuyue/onlinebooking.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/yuyue/weimob-ui-1-1.css" media="all" />
+
+<script type="text/javascript" src="{weikucms::RES}/js/yuyue/jQuery.js"></script>
+
+
+
+<title>{weikucms:$tpl.name}</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+        <meta name="Keywords" content="万普微盟" />
+
+        <meta name="Description" content="万普微盟" />
+
+        <!-- Mobile Devices Support @begin -->
+
+            <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+
+            <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+
+            <meta content="no-cache" http-equiv="pragma">
+
+            <meta content="0" http-equiv="expires">
+
+            <meta content="telephone=no, address=no" name="format-detection">
+
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+            <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- Mobile Devices Support @end -->
+
+        <style>
+
+            img{width:100%!important;}
+
+        </style>
+
+    </head>
+
+    <body onselectstart="return true;" ondragstart="return false;">
+
+        <body id="onlinebooking-list">
+
+<div class="qiandaobanner"> 
+       <if condition="$data.topic neq null">
+	   <img src="{weikucms:$data.topic}">
+	   <else/>
+		<img src="{weikucms::RES}/images/yuyue/head_pic.jpg">
+		</if>
+
+	</div>
+
+	<div class="cardexplain">
+
+	<!--普通用户登">
+
+	</a>
+
+</div>
+
+<div class="cardexplain"> 
+
+
+
+<!--超过预订时间3天后自动删掉预订记录，免得占服务器资源！-->
+
+ <volist name="data" id="v">  
+
+	<ul class="round">
+
+		<li class="title">
+
+			<span>预约详情
+
+			<php>
+
+				if($v['type']==0){
+
+			</php>
+
+				<em class="no" >等待客服回电</em>
+
+			<php>
+
+				}elseif($v['type']==1){
+
+			</php>
+
+				<em class="no">预约受理中</em>
+
+			<php>
+
+				}elseif($v['type']==2){
+
+			</php>
+
+				<em class="no">预约被拒绝</em>
+
+			<php>
+
+				}
+
+			</php>
+
+			
+
+			</span>
+
+		</li>
+
+		<li>
+
+			<div class="text">
+
+			<p>联系人：{weikucms:$v.name}</p>				
+
+			<p>联系电话：{weikucms:$v.phone}</p>								
+
+			<p>预约时间 ：{weikucms:$v.date} {weikucms:$v.time}</p>				
+
+			<p>提交时间：{weikucms:$v.date}</p>				
+
+			<p>备注：{weikucms:$v.memo}</p>
+
+			<div class="footReturn">
+
+				<a id="" style="color:#fff;" class="submit" href="{weikucms::U('Yuyue/set',array('token'=> $v['token'], 'wecha_id'=> $v['wecha_id'], 'id'=> $v['id'], 'pid'=> $v['pid']))}">修改订单 </a>
+
+			</div>
+
+			</div>
+
+		</li>
+
+	</ul>	
+
+</volist>
+
+<!--页码-->
+
+    </div>
+
+<footer style="text-align:center; color:#ffd800;margin-right:20px;margin-top:0px;"><a href="#">©{weikucms:$tpl.name}</a></footer>
+
+</body>        		<div mark="stat_code" style="width:0px; height:0px; display:none;">
+
+					</div>
+
+	</body>
+
+</html>

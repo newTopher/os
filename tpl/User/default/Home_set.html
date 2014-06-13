@@ -1,0 +1,182 @@
+<include file="Public:head"/>
+<div class="content right">
+
+<script>
+    KindEditor.ready(function(K){
+        var editor = K.editor({
+            allowFileManager:true
+        });
+        K('#upload').click(function() {
+            editor.loadPlugin('image', function() {
+                editor.plugin.imageDialog({
+                    fileUrl : K('#pic').val(),
+                    clickFn : function(url, title) {
+                        K('#pic').val(url);
+                        $("#image_show").attr('src',url).show();
+                        editor.hideDialog();
+                    }
+                });
+            });
+        });
+    });
+
+    $(function(){
+        $("#bsubmit").click(function(){
+            var btn = $(this);
+            if(! $("input[name='keywords']").val()){
+                notif({
+                    msg: "关键词不能为空",
+                    type: "warning"
+                });
+                return false;
+            }
+            if(! $("input[name='title']").val()){
+                notif({
+                    msg: "回复标题为空,用于回复图文信息的标题",
+                    type: "warning"
+                });
+                return false;
+            }
+            if(! $("input[name='picurl']").val()){
+                notif({
+                    msg: "请上传封面图片哦",
+                    type: "warning"
+                });
+                return false;
+            }
+
+
+        });
+    });
+
+
+</script>
+<div class="cLineB">
+  <h4>首页回复配置 </h4>
+ </div>
+    <!--复制开始-->    
+      <div class="cLineB" id="uppict" style="display:none">    
+
+ </div>
+
+ 
+ <!--复制结束-->
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <strong>提示信息!</strong>
+        <ol>
+            <li>在这里可以设置你的微官网的首页回复信息</li>
+        </ol>
+    </div>
+    <div class="msgWrap bgfc">
+	  <form class="form" method="post" action="" target="_top" enctype="multipart/form-data">	 
+		<table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tbody>
+                <tr>
+				  <th valign="top">微官网首页地址：</th>
+				  <td>
+                      http://v.wapwei.com/index.php/Wap/Index/index/token/{weikucms:$_SESSION['token']}
+                  </td>
+				</tr>
+				<tr>
+				  <th valign="top"><span class="red">*</span>关键词：</th>
+				  <td>
+                      <input type="text" name="keywords" value="首页" class="px" style="width:300px;" onfocus="leave();" readonly="readonly">
+                  </td>
+				</tr>
+				<tr>
+					<th width="120">回复标题：</th>
+					<td><input type="text" id="title" name="title" value="{weikucms:$home.title}" class="px" style="width:300px;" onfocus="leave();" ></td>
+				</tr>
+				<tr>
+					<th width="120">内容介绍：</th>
+					<td><textarea style="width:300px;height:75px" name="info" id="info" class="px" onfocus="leave();" >{weikucms:$home.info}</textarea><br/>最多填写120个字</td>
+				</tr>
+                <TR>
+                    <TH valign="top"><label for="picurl">封面图片展示：</label></TH>
+
+                    <TD><img style="display: block;" id="image_show" class="indexs_img" src="{weikucms:$home.picurl}"></TD>
+                </TR>
+				<tr>
+					<th>回复图片：</th>
+					<td>
+                    <input type="hidden" class="text textMiddle inputQ"  name="picurl" id="pic" value="{weikucms:$home.picurl}" style="width:300px;"   />
+                    <span class="ke-button-common" id="upload" style="margin-left: 5px;">上传图片</span>
+                </tr>
+				<th>&nbsp;</th>
+					<td>
+						<button type="button" id="bsubmit"  name="button" class="btn btn-primary">保存</button>
+						<a href="javascript:history.go(-1);" class="btn btn-primary">取消</a>
+					</td>
+				</tr>
+                <TR style="height: 150px;">
+
+                </TR>
+			</tbody>
+		</table>
+	</form>
+  </div>
+
+    <script type="text/javascript">
+        $(function(){
+            $("#bsubmit").click(function(){
+                var title = $("#title").val();
+                var info = $("#info").val();
+                var picurl = $("#pic").val();
+                var id = $("input[name='id']").val();
+                var __hash__ =  $("input[name='__hash__']").val();
+
+                if(!title){
+                    notif({
+                        msg: "回复标题不能为空哦",
+                        type: "warning"
+                    });
+                    return false;
+                }
+
+                if(!picurl){
+                    notif({
+                        msg: "您还没有上传封面图片",
+                        type: "warning"
+                    });
+                    return false;
+                }
+
+
+                if(! info){
+                    notif({
+                        msg: "回复简介不能为空",
+                        type: "warning"
+                    });
+                    return false;
+                }
+
+
+
+                $.post("{weikucms::U('Home/set')}",
+                        {id:id,title:title,picurl:picurl,info:info,__hash__:__hash__},
+                        function(data){
+                            if(data.status == 1){
+                                notif({
+                                    msg: data.info,
+                                    type: "success"
+                                });
+                                setTimeout(function(){
+                                    window.location.href = data.url;
+                                },'1000');
+                            }else{
+                                notif({
+                                    msg: data.info,
+                                    type: "error"
+                                });
+                            }
+                        },'json');
+
+            });
+        });
+
+    </script>
+ 
+  
+        </div>
+<include file="Public:footer"/>

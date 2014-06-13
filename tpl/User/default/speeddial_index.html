@@ -1,0 +1,119 @@
+﻿<include file="Public:head"/>
+ <div class="content right">
+          <div class="cLineB">
+            <h4>微官网导航与版权信息</h4></div>
+<div class="msgWrap">
+  <form class="form" method="post"   action=""  target="_top" enctype="multipart/form-data" >
+<TABLE class="userinfoArea" style=" margin:20px 0 0 0;" border="0" cellSpacing="0" cellPadding="0" width="100%">
+  <THEAD>
+<TR>
+  <TH valign="top"><label for="keyword">电话：</label></TH>
+  <TD><input type="input" class="px" id="phone" value="{weikucms:$info.phone}" name="phone" style="width:300px" ><br />
+         </TD>
+  <TD></TD>
+</TR>
+                            </THEAD>
+  <TBODY><input type="hidden" name="id" id="id" value="{weikucms:$info.id}"/>
+  <input type="hidden" name="token" id="token" value="{weikucms:$Think.session.token}"/>
+<TR>
+  <TH valign="top"><label for="keyword">导航地址：</label></TH>
+  <TD><input type="input" class="px" id="nav" value="{weikucms:$info.nav}" name="nav" style="width:300px" ><br />
+                </TD>
+  <TD>&nbsp;</TD>
+</TR>
+<TR>
+  <TH valign="top"><label for="keyword">首页地址：</label></TH>
+  <TD><input type="input" class="px" id="mhome" value="{weikucms:$info.mhome}" name="mhome" style="width:300px" ><br />
+                   </TD>
+  <TD>&nbsp;</TD>
+</TR>
+<TR>
+  <TH valign="top"><label for="keyword">相册地址</label></TH>
+  <TD><input type="input" class="px" id="mphoto" value="{weikucms:$info.mphoto}" name="mphoto" style="width:300px" ><br />
+                   </TD>
+  <TD>&nbsp;</TD>
+</TR>
+
+
+<TR>
+  <TH valign="top"><label for="keyword">版权信息</label></TH>
+  <TD><input type="input" class="px" id="copyright" value="{weikucms:$info.copyright}" name="copyright" style="width:300px" ><br />
+                   </TD>
+  <TD>&nbsp;</TD>
+</TR>
+
+<!--<TR>
+  <TH valign="top"><label for="keyword">音乐背景</label></TH>
+  <TD><input type="input" class="px" id="keyword" value="{weikucms:$info.musicurl}" name="musicurl" style="width:300px" ><br />
+                   </TD>
+  <TD>&nbsp;</TD>
+</TR>-->
+
+<TR>
+  <TH></TH>
+  <TD><button type="button" id="bsubmit"  name="button"  class="btn btn-primary" >保存</button>
+  	<div class="clr"></div>
+  	</TD>
+  </TR>
+  </TBODY>
+</TABLE>
+  </form>
+
+
+
+  </div> 
+
+        </div>
+        
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div> 
+
+<!--底部-->
+  	</div>
+<script type="text/javascript">
+    $(function(){
+        $("#bsubmit").click(function(){
+            var phone = $("#phone").val();
+            var nav = $("#nav").val();
+            var mhome = $("#mhome").val();
+            var mphoto = $("#mphoto").val();
+            var id = $("#id").val();
+            var token = $("#token").val();
+            var copyright = $("#copyright").val();
+            var __hash__ =  $("input[name='__hash__']").val();
+
+            if(! token){
+                notif({
+                    msg: "token不能为空",
+                    type: "warning"
+                });
+                return false;
+            }
+
+
+            $.post("{weikucms::U('speeddial/index')}",
+                    {id:id,phone:phone,nav:nav,mhome:mhome,mphoto:mphoto,token:token,copyright:copyright,__hash__:__hash__},
+                    function(data){
+                        if(data.status == 1){
+                            notif({
+                                msg: data.info,
+                                type: "success"
+                            });
+                            setTimeout(function(){
+                                window.location.href = data.url;
+                            },'1000');
+                        }else{
+                            notif({
+                                msg: data.info,
+                                type: "error"
+                            });
+                        }
+                    },'json');
+
+        });
+    });
+
+</script>
+<include file="Public:footer"/>

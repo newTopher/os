@@ -1,0 +1,613 @@
+[ 2014-04-28T09:33:07+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:38:32+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:39:08+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:39:51+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:40:08+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:40:11+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T09:40:36+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2014-04-28T10:01:13+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.058666s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.081419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.142056s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.158891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.160125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.161123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020284s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.162406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2014-04-28T10:30:36+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+
+[ 2014-04-28T10:41:20+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+
+[ 2014-04-28T10:41:35+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+
+[ 2014-04-28T10:46:16+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+
+[ 2014-04-28T10:51:18+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl&a=index&goodsid=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+NOTIC: [2048] Non-static method CommonUtil::trimString() should not be called statically, assuming $this from incompatible context E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPayHelper.php 第 17 行.
+
+[ 2014-04-28T11:03:35+08:00 ] 127.0.0.1 /index.php?g=Weipay&m=Createurl&a=index&goodsid=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+
+[ 2014-04-28T12:44:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002393s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018638s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019737s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040838s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054213s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2014-04-28T12:56:10+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T12:57:33+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T12:58:11+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002276s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013118s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013692s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014280s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-04-28T12:58:17+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007554s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009760s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010242s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010698s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-04-28T12:59:30+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001863s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011551s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012039s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012447s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-04-28T12:59:44+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001406s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009751s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010620s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-04-28T13:00:09+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T13:00:24+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:01:28+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:01:33+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T13:02:05+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T13:02:53+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:03:16+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:04:20+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:05:45+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:06:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008060s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010740s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011277s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011801s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-04-28T13:07:12+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_weipay_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_weipay_config`
+[ 2014-04-28T13:10:59+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003856s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000435s ]
+
+[ 2014-04-28T13:23:01+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.006695s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000590s ]
+
+[ 2014-04-28T13:53:39+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005008s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000590s ]
+
+[ 2014-04-28T13:54:13+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003110s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000279s ]
+
+[ 2014-04-28T13:54:43+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005472s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000604s ]
+
+[ 2014-04-28T13:56:45+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=1&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005216s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000531s ]
+
+[ 2014-04-28T16:40:23+08:00 ] ERR: (ThinkException) 无法加载模块:Createurl
+[ 2014-04-28T16:40:57+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=3454&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005162s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.004783s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = null ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`token`,`uid`,`status`) VALUES (null,'b97689ebef3f48a4288cd2e4fc603cf4',6,1) [ RunTime:0.157765s ]
+
+[ 2014-04-28T16:41:12+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&goodsid=3454&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.004248s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.004437s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = null ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`token`,`uid`,`status`) VALUES (null,'b97689ebef3f48a4288cd2e4fc603cf4',6,1) [ RunTime:0.092769s ]
+
+[ 2014-04-28T16:41:43+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=3454&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.004047s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003884s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '3454' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`token`,`uid`,`status`) VALUES ('3454','b97689ebef3f48a4288cd2e4fc603cf4',6,1) [ RunTime:0.121486s ]
+
+[ 2014-04-28T16:45:30+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=3454&price=4000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005080s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.005188s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '3454' ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`token`,`uid`,`status`) VALUES ('3454','b97689ebef3f48a4288cd2e4fc603cf4',6,1) [ RunTime:0.249205s ]
+
+[ 2014-04-28T16:47:33+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=3454&price=4000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005455s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003743s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '3454' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`token`,`uid`,`status`) VALUES ('3454','b97689ebef3f48a4288cd2e4fc603cf4',6,1) [ RunTime:0.075737s ]
+
+[ 2014-04-28T16:49:51+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=3454&price=4000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.007845s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.004418s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '3454' ) LIMIT 1   [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 34 行.
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('3454','4000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,0) [ RunTime:0.056725s ]
+
+[ 2014-04-28T16:50:11+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=3454&price=4000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.004610s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003608s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '3454' ) LIMIT 1   [ RunTime:0.002183s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('3454','4000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398675010) [ RunTime:0.472819s ]
+
+[ 2014-04-28T17:09:47+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.004171s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003843s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398676187) [ RunTime:0.069204s ]
+
+[ 2014-04-28T17:19:56+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005322s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.005027s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000589s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398676795) [ RunTime:0.078890s ]
+
+[ 2014-04-28T17:21:55+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003887s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003667s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398676915) [ RunTime:0.086501s ]
+
+[ 2014-04-28T17:33:17+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.088234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088346s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.077524s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003728s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.002544s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398677596) [ RunTime:0.262653s ]
+NOTIC: [2] file_get_contents():  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+NOTIC: [2] file_get_contents(http://qrcoder.sinaapp.com?t=weixin://wxpay/bizpayurl?noncestr=8tIllCfOSELrHMkv&amp;productid=6_364636&amp;sign=cbdedcf280bc8a1a1e5509a927fc03d51d5db0fb&amp;timestamp=1398677596&amp;wxf8b4f85f3a794e77=wxf8b4f85f3a794e77):  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+
+[ 2014-04-28T17:33:35+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003435s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.002922s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398677614) [ RunTime:0.069595s ]
+NOTIC: [2] file_get_contents():  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+NOTIC: [2] file_get_contents(http://qrcoder.sinaapp.com?t=weixin://wxpay/bizpayurl?noncestr=RfmdB3nfWxleXSLw&amp;productid=6_364636&amp;sign=e3fec88e10e4e88864cf4e2be9db15fe78e5b786&amp;timestamp=1398677615&amp;wxf8b4f85f3a794e77=wxf8b4f85f3a794e77):  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+
+[ 2014-04-28T17:38:30+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.004651s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003535s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398677910) [ RunTime:0.088463s ]
+NOTIC: [2] file_get_contents():  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+NOTIC: [2] file_get_contents(http://qrcoder.sinaapp.com?t=weixin://wxpay/bizpayurl?noncestr=dhYz4oVD4971i2mE&amp;productid=6_364636&amp;sign=c0b23402c192cd71f21282ab081c894f733e4e49&amp;timestamp=1398677910&amp;wxf8b4f85f3a794e77=wxf8b4f85f3a794e77):  E:\Apache2.2\htdocs\weimeng\Lib\Action\User\CreateurlAction.class.php 第 44 行.
+
+[ 2014-04-28T17:42:33+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.005235s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.005383s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398678152) [ RunTime:0.294876s ]
+
+[ 2014-04-28T17:43:11+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003929s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003747s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398678191) [ RunTime:0.059722s ]
+
+[ 2014-04-28T17:45:45+08:00 ] 127.0.0.1 /index.php?g=User&m=Createurl&a=index&id=364636&price=2000&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 6 行.
+NOTIC: [8] Use of undefined constant APPKEY - assumed 'APPKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SIGNTYPE - assumed 'SIGNTYPE' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 8 行.
+NOTIC: [8] Use of undefined constant PARTNERKEY - assumed 'PARTNERKEY' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 9 行.
+NOTIC: [8] Use of undefined constant APPSERCERT - assumed 'APPSERCERT' E:\Apache2.2\htdocs\weimeng\Core\Extend\Vendor\weipay\WxPay.config.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_weipay_config` [ RunTime:0.003706s ]
+SQL: SELECT * FROM `tp_weipay_config` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `tp_weipay_order_list` [ RunTime:0.003961s ]
+SQL: SELECT * FROM `tp_weipay_order_list` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `gid` = '6_364636' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: INSERT INTO `tp_weipay_order_list` (`gid`,`price`,`token`,`uid`,`status`,`add_time`) VALUES ('6_364636','2000','b97689ebef3f48a4288cd2e4fc603cf4',6,1,1398678345) [ RunTime:0.097040s ]
+

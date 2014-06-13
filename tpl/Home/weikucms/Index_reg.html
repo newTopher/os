@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>注册－{weikucms::C('site_title')}</title>
+<meta name="keywords" content="weikucms 微信帮手 微信公众账号 微信公众平台 微信公众账号开发 微信二次开发 微信接口开发 微信托管服务 微信营销 微信公众平台接口开发"/>
+<meta name="description" content="微信公众平台接口开发、托管、营销活动、二次开发"/>
+    <script src="{weikucms::RES}/js/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/bootstrap.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/reg.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{weikucms::RES}/css/index.css" media="all" />
+<script type="text/javascript" src="{weikucms::RES}/js/jQuery.js"></script>
+<script type="text/javascript" src="{weikucms::RES}/js/bootstrap.js"></script>
+<script type="text/javascript" src="{weikucms::RES}/js/omvalidate.js"></script>
+<script type="text/javascript" src="{weikucms::RES}/js/placeholder.js"></script>
+<script type="text/javascript" src="{weikucms::RES}/js/index.js"></script>
+<include file="Public:header"/>
+<div class="Public-content clearfix">
+	<div class="Public">
+		<h1 class="Public-h1">注册</h1>
+		<div class="Public-box clearfix">
+			<div class="reg-wrapper2">
+            <form action="{weikucms::U('Users/checkreg')}" method="post" class="form-horizontal">
+                <div class="control-group">
+						<label class="control-label" for="username">用户名</label>
+						<div class="controls" >
+							<input class="text" required="" value="请输入用户名" onclick="if(this.value=='请输入用户名'){this.value=''}" onblur="if(this.value==''){this.value='请输入用户名'}" type="text" name="username">
+							<span class="maroon">*</span><span class="help-inline" style=" color:#c35d00;">长度为6~16位字符，可以为“数字/字母/中划线/下划线”组成</span>
+						</div>
+					</div>
+                    <div class="control-group">
+						<label class="control-label" for="password">设置密码</label>
+						<div class="controls">
+							<input class="text" type="password" name="password">
+							<span class="maroon">*</span><span class="help-inline" style=" color:#c35d00;">长度为6~16位字符</span>
+						</div>
+					</div>
+					 <div class="control-group">
+						<label class="control-label" for="repassword">确认密码</label>
+						<div class="controls">
+							<input class="text" type="password" name="repassword">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="phone">手机</label>
+						<div class="controls">
+							<input type="text" name="phone" id="phone" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Phone']);">
+							<span class="maroon">*</span><span class="help-inline" style=" color:#c35d00;">请输入正确的手机号码</span>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="email">邮箱</label>
+						<div class="controls">
+							<input class="text" type="text" name="email" value="请输入电子邮箱" onclick="if(this.value=='请输入电子邮箱'){this.value=''}" onblur="if(this.value==''){this.value='请输入电子邮箱'}">
+							<span class="maroon">*</span><span class="help-inline" style=" color:#c35d00;">邮箱将与支付及优惠相关，请填写正确的邮箱</span>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="qq">QQ</label>
+						<div class="controls">
+							<input type="text" name="qq" id="qq" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/QQ']);">
+						</div>
+					</div>
+                   <div class="control-group">
+						<div class="controls">
+							<button type="submit" id="reg-btn" class="btn-register" style="display:none;"></button>
+							<button type="submit" class="btn-register" onClick="validityInvitecode(this); return false;javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Submit']);"></button>
+						
+					</div>
+                    <div  style=" color:#ffffff; text-align:center" >帐号审核请联系网站客服！</div></div>
+            </form>
+			</div>
+		</div>
+	</div>
+</div>
+<include file="Public:footer"/>

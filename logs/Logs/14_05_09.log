@@ -1,0 +1,46 @@
+[ 2014-05-09T12:33:04+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.022594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076163s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.537419s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.059397s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-4.280390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.054842s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-4.335286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207613s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-4.542987s ]
+INFO: Run TokenBuild Behavior [ RunTime:-4.553133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-4.564135s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-4.566721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025758s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-4.568850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008850s ]
+
+[ 2014-05-09T12:33:17+08:00 ] ERR: (ThinkException) Table 'weikucms.tp_wxusers' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_wxusers`
+[ 2014-05-09T12:33:26+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007996s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000936s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.121851s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.124150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053510s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.177402s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.178241s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.179023s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.179671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003092s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.180561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000889s ]
+

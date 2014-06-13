@@ -1,0 +1,44 @@
+[ 2014-06-12T10:55:53+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.045044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.400043s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.381427s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.018477s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-3.491446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.045207s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-3.536775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079080s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.615866s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.616905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.630415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.641502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.642891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2014-06-12T15:42:59+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076295s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.392352s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.018963s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-2.668743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.067269s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-2.736086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112448s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.848580s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.849888s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.863374s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.874248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.875700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001792s ]
+

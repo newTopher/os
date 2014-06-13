@@ -1,0 +1,712 @@
+[ 2014-05-27T11:40:38+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.088671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.558806s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:1.804928s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.171027s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-13.323731s ]
+INFO: [ view_template ] --END-- [ RunTime:0.308486s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-13.632261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.401820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-14.034127s ]
+INFO: Run TokenBuild Behavior [ RunTime:-14.074352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-14.118438s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-14.162682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.173454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-14.207680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.035545s ]
+
+[ 2014-05-27T11:40:38+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006982s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001078s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.027680s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.029351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.039371s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.039893s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.040430s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.040822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.041453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2014-05-27T11:40:52+08:00 ] 127.0.0.1 /index.php?m=Users&a=index.php&g=User&m=Home&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006882s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005862s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006537s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.091647s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `tp_wxusers` [ RunTime:0.102434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 6 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.105841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 6 ) AND ( `status` = 1 ) AND (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) LIMIT 1   [ RunTime:0.020589s ]
+SQL: SHOW COLUMNS FROM `tp_msg_list` [ RunTime:0.083030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_msg_list` WHERE (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) AND ( `uid` = 6 ) LIMIT 1   [ RunTime:0.185744s ]
+SQL: SHOW COLUMNS FROM `tp_requestdata` [ RunTime:0.060071s ]
+SQL: SELECT * FROM `tp_requestdata` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `month` = 5 ) AND ( `year` = 2014 ) LIMIT 1   [ RunTime:0.047205s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.764809s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018005s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.782862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.377499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.160444s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.161650s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.162480s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.162959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.163925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2014-05-27T11:41:03+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007390s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005353s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007396s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.077922s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.019081s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.229507s ]
+INFO: [ view_template ] --END-- [ RunTime:0.028177s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.257748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.319681s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.320548s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.321463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.321760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002591s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.322430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-05-27T11:59:01+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.115656s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004549s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004846s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.146053s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.185267s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.004958s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000558s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.480954s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Array to string conversion E:\Apache2.2\htdocs\weimeng\logs\Cache\User\7211be94ef344b0124b2339a8e0ea470.php 第 656 行.
+NOTIC: [8] Undefined variable: Array E:\Apache2.2\htdocs\weimeng\logs\Cache\User\7211be94ef344b0124b2339a8e0ea470.php 第 656 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.482517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.532061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.532934s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.533713s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.534124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.534856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-05-27T12:01:07+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006199s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005236s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006659s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004310s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003142s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.075984s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.077153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.148238s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.149056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.149811s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.150217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.150922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2014-05-27T12:04:02+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005532s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004830s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.003595s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003483s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.060288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.061453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044661s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.106162s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.107069s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.107850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.108252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002730s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.108971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2014-05-27T12:04:54+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007605s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005260s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005511s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004209s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 0,15   [ RunTime:0.000634s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.152495s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011009s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.163592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.228736s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.229344s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.229873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.230156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.230704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2014-05-27T12:05:00+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.010455s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.007446s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.009119s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.007436s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.002447s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.094541s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.024692s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.000648s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.198866s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.199980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072527s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.272449s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.273079s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.273730s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.274017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.274617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2014-05-27T12:06:06+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008617s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006388s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008578s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004458s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.043573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 0,15   [ RunTime:0.000405s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.106588s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.107803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042566s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.150394s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.151231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.151819s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.152214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.152892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-05-27T12:06:10+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.043581s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005583s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007166s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.006912s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.004356s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000408s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.106567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.107417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.150242s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.150910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.151614s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.151903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.152586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-05-27T12:11:16+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=index&token=b97689ebef3f48a4288cd2e4fc603cf4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.010095s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.004703s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005859s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.006262s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004881s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `uid` = 3 ) AND ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) LIMIT 0,15   [ RunTime:0.000515s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.069099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036977s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.107290s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.108056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.108642s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.109038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002382s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.109709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2014-05-27T12:11:18+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007238s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005768s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006896s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005736s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.005326s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.000736s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'b97689ebef3f48a4288cd2e4fc603cf4' )  [ RunTime:0.000506s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.062935s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.063952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036116s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.100108s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.100735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.101561s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.101848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.102412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-05-27T12:15:30+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.019207s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001490s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.045815s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.048326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017816s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.066210s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.067298s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.068406s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.069209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004207s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.070537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2014-05-27T12:15:44+08:00 ] 127.0.0.1 /index.php?m=Users&a=index.php&g=User&m=Home&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.010889s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.008754s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.048526s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005394s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.079896s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.024996s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `tp_wxusers` [ RunTime:0.005755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.002488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) AND (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) LIMIT 1   [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `tp_msg_list` [ RunTime:0.005867s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_msg_list` WHERE (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) AND ( `uid` = 12 ) LIMIT 1   [ RunTime:0.006269s ]
+SQL: SHOW COLUMNS FROM `tp_requestdata` [ RunTime:0.005682s ]
+SQL: SELECT * FROM `tp_requestdata` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `month` = 5 ) AND ( `year` = 2014 ) LIMIT 1   [ RunTime:0.000619s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.257927s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001267s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.259249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.304371s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.305112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.305711s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.306111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.306799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-05-27T12:15:50+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007448s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005878s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006504s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.003681s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.004411s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003955s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 9 ) AND ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000530s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.053879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.054792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.097866s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.098541s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.099274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.099559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.100131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-05-27T12:32:09+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.011187s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.008232s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005182s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005469s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.002637s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.006642s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.004571s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 9 ) AND ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000355s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068071s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.069334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.112833s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.113716s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.114483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.114878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.115581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2014-05-27T12:32:44+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008184s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005853s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007120s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005703s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.004651s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.003764s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 9 ) AND ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.079762s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.080660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044190s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.124905s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.125632s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.126453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.126769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.127366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-05-27T14:12:27+08:00 ] 127.0.0.1 /index.php?g=User&m=Home&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057692s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.057576s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.052065s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.043104s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.080189s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.006430s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.048950s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.038427s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.170847s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.005646s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 1 )  [ RunTime:0.000618s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 2 )  [ RunTime:0.000441s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 3 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `tp_wxusers` [ RunTime:0.032165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.166055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) AND (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) LIMIT 1   [ RunTime:0.039880s ]
+SQL: SHOW COLUMNS FROM `tp_msg_list` [ RunTime:0.038985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_msg_list` WHERE (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) AND ( `uid` = 12 ) LIMIT 1   [ RunTime:0.207708s ]
+SQL: SHOW COLUMNS FROM `tp_requestdata` [ RunTime:0.046337s ]
+SQL: SELECT * FROM `tp_requestdata` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `month` = 5 ) AND ( `year` = 2014 ) LIMIT 1   [ RunTime:0.068059s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-2.889226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029616s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-2.918911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.242678s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.264467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.308604s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.319331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.101927s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.344704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2014-05-27T14:31:20+08:00 ] 127.0.0.1 /index.php?g=User&m=Areply&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [2048] Declaration of AreplyAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') E:\Apache2.2\htdocs\weimeng\Lib\Action\User\AreplyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007282s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005664s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007314s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.006303s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.002524s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.005965s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 1 )  [ RunTime:0.001157s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 2 )  [ RunTime:0.000283s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 3 )  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `tp_areply` [ RunTime:0.032840s ]
+SQL: SELECT * FROM `tp_areply` WHERE ( `uid` = 9 ) AND ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.008445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.207354s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.208526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073564s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.282141s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.282971s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.283715s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.284171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027241s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.309459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-05-27T15:07:11+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013357s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.026285s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.061330s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.216078s ]
+INFO: [ view_template ] --END-- [ RunTime:0.043292s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.259440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.326167s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.327494s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.331895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.333144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008577s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.334838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2014-05-27T15:56:16+08:00 ] 127.0.0.1 /index.php?g=User&m=Home&a=index&token=f17f0d1e02a8976cf065163525547260
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.043139s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.086757s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005760s ]
+SQL: SELECT `wxname`,`wxid`,`weixin`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `uid` = 9 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.070013s ]
+SQL: SELECT `id`,`title` FROM `tp_img` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' )  [ RunTime:0.182825s ]
+SQL: SHOW COLUMNS FROM `tp_lottery` [ RunTime:0.065423s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 1 )  [ RunTime:0.016696s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 2 )  [ RunTime:0.000538s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 3 )  [ RunTime:0.000514s ]
+SQL: SELECT `id`,`title` FROM `tp_lottery` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `status` = 4 )  [ RunTime:0.000511s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tp_wxusers` [ RunTime:0.057733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.051492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxusers` WHERE ( `uid` = 12 ) AND ( `status` = 1 ) AND (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) LIMIT 1   [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `tp_msg_list` [ RunTime:0.056201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_msg_list` WHERE (  (`add_time` BETWEEN 1401120000 AND 1401206400 ) ) AND ( `uid` = 12 ) LIMIT 1   [ RunTime:0.162659s ]
+SQL: SHOW COLUMNS FROM `tp_requestdata` [ RunTime:0.065735s ]
+SQL: SELECT * FROM `tp_requestdata` WHERE ( `token` = 'f17f0d1e02a8976cf065163525547260' ) AND ( `month` = 5 ) AND ( `year` = 2014 ) LIMIT 1   [ RunTime:0.047997s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-2.079917s ]
+INFO: [ view_template ] --END-- [ RunTime:0.054485s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-2.134483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202111s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.336615s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.338165s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.354411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.365355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030231s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.366934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2014-05-27T18:03:49+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.032783s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.004808s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.183983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.186779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.240310s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.242258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.244085s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.245637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.247493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002330s ]
+
